@@ -10,8 +10,8 @@ Dự án nhận diện ngôn ngữ ký hiệu bảng chữ cái tiếng Anh (Ame
 
 ## Mô tả dataset tôi đã train
 
-Gồm 28 class (26 ký tự trong bảng chữ cái tiếng Anh + 2 ký tự DELETE và SPACE)\n
-Tổng bộ dữ liệu có hơn 66800 ảnh
+- Gồm 28 class (26 ký tự trong bảng chữ cái tiếng Anh + 2 ký tự DELETE và SPACE)
+- Tổng bộ dữ liệu có hơn 66800 ảnh
 
 ## Cấu trúc thư mục
 
