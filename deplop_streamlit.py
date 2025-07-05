@@ -35,5 +35,5 @@ class SignLanguageProcessor(VideoProcessorBase):
                 cv2.putText(img, prediction[0], (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
         return av.VideoFrame.from_ndarray(img, format="bgr24")
 
-st.title("Realtime Sign Language Recognition (WebRTC)")
+st.title("Realtime Sign Language Recognition")
 webrtc_streamer(key="sign-language", video_processor_factory=SignLanguageProcessor)
