@@ -4,6 +4,10 @@
 
 Dự án nhận diện ngôn ngữ ký hiệu bảng chữ cái tiếng Anh (American Alphabet) sử dụng học máy và xử lý ảnh. Hệ thống gồm các bước: thu thập dữ liệu hình ảnh, trích xuất đặc trưng bàn tay bằng MediaPipe, huấn luyện mô hình MLPClassifier, đánh giá kết quả và nhận diện ký hiệu theo thời gian thực qua camera.
 
+## Hãy chạy thử mô hình tại link sau: (yêu cầu thiết bị có webcam)
+
+[Trải nghiệm mô hình: ](https://alphabeticsignlanguage-8cgtokmhpksjnrmd9xtgga.streamlit.app/)
+
 ## Mô tả dataset tôi đã train
 
 - Gồm 28 class (26 ký tự trong bảng chữ cái tiếng Anh + 2 ký tự DELETE và SPACE)
