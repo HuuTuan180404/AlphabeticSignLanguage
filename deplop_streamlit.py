@@ -33,7 +33,7 @@ class SignLanguageProcessor(VideoProcessorBase):
                 y1 = int(min(y_) * img.shape[0])
                 prediction = model.predict([np.array(data_aux)])
                 prod=max(model.predict_proba([np.asarray(data_aux)])[0])
-                cv2.putText(img, f'{prediction[0]}: {prob * 100:.2f}%', (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+                cv2.putText(img, f'{prediction[0]}: {prod * 100:.2f}%', (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
         return av.VideoFrame.from_ndarray(img, format="bgr24")
 
 st.title("Realtime Sign Language Recognition")
