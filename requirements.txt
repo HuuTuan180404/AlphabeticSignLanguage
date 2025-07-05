@@ -5,3 +5,4 @@ matplotlib==3.8.4
 scikit-learn==1.4.2
 streamlit
 opencv-python-headless==4.9.0.80 
+streamlit-webrtc
