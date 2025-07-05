@@ -6,7 +6,7 @@ Dự án nhận diện ngôn ngữ ký hiệu bảng chữ cái tiếng Anh (Ame
 
 ## Hãy chạy thử mô hình tại link sau: (yêu cầu thiết bị có webcam)
 
-[Trải nghiệm mô hình: ](https://alphabeticsignlanguage-8cgtokmhpksjnrmd9xtgga.streamlit.app/)
+[Click me! ](https://alphabeticsignlanguage-8cgtokmhpksjnrmd9xtgga.streamlit.app/)
 
 ## Mô tả dataset tôi đã train
 
