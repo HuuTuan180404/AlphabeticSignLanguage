@@ -43,9 +43,7 @@ while run:
 
         prediction = model.predict([np.array(data_aux)])
         probs = model.predict_proba([np.asarray(data_aux)])[0]
-        # current_class = prediction[0]
-
-        st.markdown(f'**Prediction:** {prediction[0]}')
+        cv2.putText(frame, f'{prediction[0]} {max(probs)* 100:.2f}% ', (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
     
     frame=cv2.cvtColor(frame,cv2.COLOR_BGR2RGB)
     frame_window.image(frame)
